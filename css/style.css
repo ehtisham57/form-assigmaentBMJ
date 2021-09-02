@@ -566,7 +566,7 @@
     }
     .welcom h1{
         font-size: 25px;
-        color: rgba(20, 236, 135, 0.712);
+        color: rgba(236, 20, 56, 0.712);
     }
 }
 @media (max-width: 300px){
