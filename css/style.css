@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pag1{
+    text-align: center;
+    width: 80%;
+    position: relative;
+    box-shadow: 0 35px 55px rgba(185, 12, 12, 0.651);
+    min-height: 1000px;
+    background: rgb(171, 172, 172);
+    margin: 50px 100px;
+}
+.pag1 h1{
+    text-align: center;
+    padding-top: 100px ;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: cadetblue;
+    font-weight: bold;
+    border-bottom: solid 1px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.pag1 p{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(16, 50, 51);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.pag1 h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(6, 40, 41);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.pag1 h6{
+    margin-bottom: 20px;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(6, 40, 41);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.pag1 h5{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-transform: initial;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(6, 40, 41);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .pag1
+    {
+        margin: 40px 80px;
+        box-shadow: 0 35px 55px rgba(12, 185, 98, 0.651);
+        min-height: 1000px;
+    }
+    .pag1 h1
+    {
+        padding-top: 100px ;
+        margin-bottom: 70px;
+        font-size: 45px;
+        color: cadetblue;
+    }
+    .pag1 p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(21, 42, 43);
+    }
+    .pag1 h2{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 25px;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h5{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(6, 40, 41);
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .pag1
+    {
+        margin: 30px 60px;
+        box-shadow: 0 35px 55px rgba(16, 70, 168, 0.651);
+    }
+    .pag1 h1
+    {
+        padding-top: 100px ;
+        margin-bottom: 70px;
+        font-size: 40px;
+        color: rgb(180, 128, 30);
+        font-weight: bold;
+    }
+    .pag1 p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgb(30, 29, 59);
+    }
+    .pag1 h2{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 25px;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h6{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h5{
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(6, 40, 41);
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .pag1
+    {
+        margin: 20px 40px;
+        box-shadow: 0 35px 55px rgba(150, 16, 168, 0.651);
+        min-height: 1000px;
+    }
+    .pag1 h1
+    {
+        padding-top: 100px ;
+        margin-bottom: 70px;
+        font-size: 25px;
+        color: rgb(71, 47, 2);
+    }
+    .pag1 p{
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: rgb(20, 38, 49);
+    }
+    .pag1 h2{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 20px;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h6{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 20px;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h5{
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(6, 40, 41);
+    }
+}
+
+
+@media (max-width: 300px) {
+    .pag1
+    {
+        margin: 10px 20px;
+        box-shadow: 0 35px 55px rgba(12, 97, 122, 0.651);
+        min-height: 1000px;
+    }
+    .pag1 h1
+    {
+        padding-top: 100px ;
+        margin-bottom: 70px;
+        font-size: 16px;
+        color: rgb(141, 143, 11);
+    }
+    .pag1 p{
+    margin-bottom: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(16, 20, 22);
+    }
+    .pag1 h2{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 12px;
+
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h6{
+        margin-bottom: 20px;
+        margin-top: 100px;
+        font-size: 12px;
+        color: rgb(21, 42, 48);
+    }
+    .pag1 h5{
+        font-size: 10px;
+        font-weight: 500;
+        color: rgb(6, 40, 41);
+    }
+    .pag1 a img{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+/*-------------------------------- pag-1  end --------------------------------------- */
+
+
+
+/*-------------------------------- form-1  start --------------------------------------- */
+
+
+.form-1{
+    margin: 50px 100px;
+    box-shadow: 0 35px 95px rgba(15, 131, 54, 0.651);
+    min-height:650px;
+    background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+}
+.form-1 legend{
+    font-size: 40px;
+    color: rgb(131, 165, 7);
+    text-align: center;
+}
+.form-1 label{
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.form-1 label input{
+    width: 90%;
+    height: 40px;
+}
+
+
+
+@media (max-width: 900px) {
+    .form-1{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(7, 236, 84, 0.651);
+        min-height: 750px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+}
+@media (max-width: 500px) {
+    .form-1{
+        margin: 20px 40px;
+        box-shadow: 0 35px 95px rgba(23, 11, 187, 0.651);
+        min-height: 850px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+    .form-1 form{
+        font-size: 15px;
+    }
+}
+@media (max-width: 300px) {
+    .form-1{
+        margin: 5px 10px;
+        box-shadow: 0 35px 95px rgba(99, 114, 12, 0.651);
+        min-height: 950px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(94, 10, 70, 0.5));
+    }
+    .form-1 form{
+        font-size: 10px;
+    }
+}
+/*-------------------------------- form-1  end --------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------- form-2  start --------------------------------------- */
+
+
+.form-2{
+    margin: 50px 100px;
+}
+
+.form-2{
+    margin: 50px 100px;
+    box-shadow: 0 35px 95px rgba(15, 131, 54, 0.651);
+    min-height: 650px;
+    background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+}
+.form-2 legend{
+    font-size: 40px;
+    color: rgb(131, 165, 7);
+    text-align: center;
+}
+.form-2 label{
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.form-2 label input{
+    width: 90%;
+    height: 40px;
+}
+
+
+@media (max-width: 900px) {
+    .form-2{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(7, 236, 84, 0.651);
+        min-height: 750px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+}
+@media (max-width: 500px) {
+    .form-2{
+        margin: 20px 40px;
+        box-shadow: 0 35px 95px rgba(23, 11, 187, 0.651);
+        min-height: 850px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+    .form-3 form{
+        font-size: 15px;
+    }
+}
+@media (max-width: 300px) {
+    .form-2{
+        margin: 5px 10px;
+        box-shadow: 0 35px 95px rgba(99, 114, 12, 0.651);
+        min-height: 950px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(94, 10, 70, 0.5));
+    }
+    .form-2 form{
+        font-size: 10px;
+    }
+}
+
+/*-------------------------------- form-2  end --------------------------------------- */
+
+
+
+
+/*-------------------------------- form-3  start --------------------------------------- */
+
+
+.form-3{
+    margin: 50px 100px;
+    box-shadow: 0 35px 95px rgba(15, 131, 54, 0.651);
+    min-height: 650px;
+    background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+}
+.form-3 select{
+
+    width: 30%;
+    height: 30px;
+    margin: 30px;
+}
+.form-3 form{
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.form-3 legend{
+    font-size: 40px;
+    color: rgb(131, 165, 7);
+    text-align: center;
+}
+.form-3 label{
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.form-3 label input{
+    width: 90%;
+    height: 40px;
+}
+.comments{
+    width: 90%;
+}
+.Documment{
+    width: 90%;
+}
+.Documment p{
+    width: 90%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Documment input{
+    width: 90%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.checkbox p{
+    margin-bottom: 50px;
+    display: inline;
+}
+.checkbox{
+    margin-bottom: 50px;
+}
+.comments textarea{
+    position: relative;
+    width: 90%;
+    min-height: 150px;
+    max-height: 600px;
+    background: rgba(253, 247, 252, 0.5);
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .form-3{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(7, 236, 84, 0.651);
+        min-height: 750px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+}
+@media (max-width: 500px) {
+    .form-3{
+        margin: 20px 40px;
+        box-shadow: 0 35px 95px rgba(23, 11, 187, 0.651);
+        min-height: 850px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(245, 25, 182, 0.5));
+    }
+    .form-3 form{
+        font-size: 15px;
+    }
+    .Documment p{
+        font-size: 20px;
+    }
+}
+.Documment input{
+    font-size: 20px;
+}
+@media (max-width: 300px) {
+    .form-3{
+        margin: 5px 10px;
+        box-shadow: 0 35px 95px rgba(99, 114, 12, 0.651);
+        min-height: 950px;
+        background:linear-gradient(rgba(42, 200, 77, 0.4),rgba(94, 10, 70, 0.5));
+    }
+    .form-3 form{
+        font-size: 10px;
+    }
+    .Documment p{
+        font-size: 16px;
+    }
+    .Documment input{
+        font-size: 20px;
+    }
+}
+/*-------------------------------- form-3 end --------------------------------------- */
+
+/*-------------------------------- welcome end --------------------------------------- */
+
+.welcom{
+    margin: 50px 100px;
+    box-shadow: 0 35px 95px rgba(15, 131, 54, 0.651);
+    min-height: 650px;
+    background:linear-gradient(rgba(181, 199, 17, 0.4),rgba(25, 65, 245, 0.5));
+}
+.welcom h1{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 80px;
+    color: rgb(180, 132, 12);
+}
+@media (max-width: 1200px){
+    .welcom{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(165, 10, 165, 0.651);
+    }
+    .welcom h1{
+        padding-top: 300px;
+        font-size: 70px;
+        color: rgba(26, 180, 12, 0.712);
+    }
+}
+@media (max-width: 900px){
+    .welcom{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(10, 155, 165, 0.651);
+    }
+    .welcom h1{
+        padding-top: 300px;
+        font-size: 55px;
+        color: rgba(236, 20, 56, 0.712);
+    }
+}
+@media (max-width: 700px){
+    .welcom{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(108, 155, 165, 0.651);
+    }
+    .welcom h1{
+        font-size: 40px;
+        color: rgba(236, 215, 20, 0.712);
+    }
+}
+@media (max-width: 500px){
+    .welcom{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(10, 155, 05, 0.651);
+    }
+    .welcom h1{
+        font-size: 25px;
+        color: rgba(20, 236, 135, 0.712);
+    }
+}
+@media (max-width: 300px){
+    .welcom{
+        margin: 40px 80px;
+        box-shadow: 0 35px 95px rgba(10, 255, 165, 0.651);
+    }
+    .welcom h1{
+        font-size:20px;
+        color: rgba(236, 215, 20, 0.712);
+    }
+}
+
+/*-------------------------------- welcome end --------------------------------------- */
